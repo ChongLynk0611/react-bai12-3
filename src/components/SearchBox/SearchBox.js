@@ -18,7 +18,7 @@ class SearchBox extends Component{
         return(
             <div className="SearchBox">
                 <input 
-                    className = {classNames({boder_input:this.state.content.length > 10 })}
+                    className = {classNames({boder_input:!(this.state.content.length === 10 && this.state.content.slice(0,3) ==='090') })}
                     placeholder="type something to search..." 
                     onFocus={()=> this.setState({isFocused:true})}
                     onBlur = {()=> this.setState({isFocused:false})}

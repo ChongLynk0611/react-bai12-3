@@ -1,4 +1,5 @@
 .SearchBox{
+    margin-top: 50px;
     position: relative;
     width: 300px;
     display: flex;
@@ -29,7 +30,7 @@
 }
 
 .boder_input{
-    border-color: brown;
+    border-color: aqua;
 }
 .active{
     
